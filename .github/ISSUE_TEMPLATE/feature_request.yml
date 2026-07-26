@@ -1,0 +1,47 @@
+name: Feature Request
+description: Suggest an idea or improvement for Diagrix
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for Diagrix? Check the [Roadmap](../../ROADMAP.md) first to see if it's
+        already planned.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the troubleshooting or workflow problem you're trying to solve
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like Diagrix to do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Related module
+      options:
+        - Live Monitoring
+        - Replay
+        - Chain Map
+        - Pinout Library
+        - New module
+        - Not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches or workarounds you've tried
+    validations:
+      required: false

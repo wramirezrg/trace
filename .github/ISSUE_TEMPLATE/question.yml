@@ -1,0 +1,16 @@
+name: Question
+description: Ask a general question about Diagrix
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [FAQ](../../docs/faq.md) first — your question might already be answered
+        there.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

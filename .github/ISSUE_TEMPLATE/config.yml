@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Visit the Diagrix website
+    url: https://diagrix.us
+    about: Product overview, updates, and contact information.
+  - name: Email support
+    url: mailto:info@diagrix.us
+    about: For anything that shouldn't be a public issue, including security reports.

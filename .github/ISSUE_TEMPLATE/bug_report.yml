@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a problem you encountered while using Diagrix
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. This repository documents Diagrix
+        publicly; the application itself is closed-source, so please include enough detail
+        for us to understand and reproduce the issue.
+
+  - type: input
+    id: version
+    attributes:
+      label: Diagrix version
+      description: Found in the application's About tab
+      placeholder: e.g. 0.9
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Affected module
+      options:
+        - Live Monitoring
+        - Replay
+        - Chain Map
+        - Pinout Library
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version, PLC brand/protocol in use
+      placeholder: e.g. Windows 11, Allen-Bradley CompactLogix, EtherNet/IP
+    validations:
+      required: false
