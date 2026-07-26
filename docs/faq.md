@@ -34,7 +34,7 @@ No. A built-in simulation mode generates realistic signal and network data, so t
 evaluated, demonstrated, or used for training without a live connection.
 
 **Where can I ask a question that isn't answered here?**
-Open an [Issue](https://github.com/wramirezrg/diagrix-public/issues) using the Question template, or email
+Open an [Issue](https://github.com/wramirezrg/diagrix/issues) using the Question template, or email
 [info@diagrix.us](mailto:info@diagrix.us).
 
 ---

@@ -47,4 +47,4 @@ Bringing analysis assistance into the platform itself.
 ---
 
 Follow progress at [diagrix.us](https://diagrix.us) or via this repository's
-[Issues](https://github.com/wramirezrg/diagrix-public/issues).
+[Issues](https://github.com/wramirezrg/diagrix/issues).

@@ -10,7 +10,7 @@ code is maintained in a private repository.
 
 - **Documentation fixes** — typos, unclear wording, outdated information. Open a pull request
   against any file in this repository.
-- **Feature requests** — open an [Issue](https://github.com/wramirezrg/diagrix-public/issues) using the Feature Request template.
+- **Feature requests** — open an [Issue](https://github.com/wramirezrg/diagrix/issues) using the Feature Request template.
 - **Bug reports** — if you're using Diagrix and hit a problem, open an Issue using the Bug
   Report template. Include your Diagrix version, PLC/protocol in use, and steps to reproduce.
 - **General questions** — open an Issue using the Question template, or email
