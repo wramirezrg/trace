@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/diagrix-banner.png" alt="Diagrix — Industrial Troubleshooting Platform" width="100%">
+</p>
+
 # Diagrix
 
 **An industrial troubleshooting and diagnostics platform for PLC-connected equipment.**
