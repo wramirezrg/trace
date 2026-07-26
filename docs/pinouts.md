@@ -27,8 +27,8 @@ standards — no searching through scattered datasheets or old reference cards i
 ## Why it matters
 
 Wiring a sensor, encoder, or network drop correctly the first time avoids an entire class of
-intermittent faults. The Pinout Library keeps that reference exactly where it's needed — next to
-the monitoring and diagnostic tools already in use.
+intermittent faults. The Pinout Library keeps that reference right next to the monitoring and
+diagnostic tools already in use.
 
 ---
 

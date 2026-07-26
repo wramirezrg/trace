@@ -24,9 +24,9 @@ maintenance log.
 
 ## Why it matters
 
-Intermittent faults are the hardest kind to troubleshoot — by the time someone looks at the
-control panel, the moment has passed. Live Monitoring is built to be running *before* the fault
-happens, so the evidence is already on screen when it does.
+Intermittent faults are the hardest kind to troubleshoot. By the time someone looks at the
+control panel, the moment has already passed. Live Monitoring is built to be running *before*
+the fault happens, so the evidence is already on screen when it does.
 
 ---
 

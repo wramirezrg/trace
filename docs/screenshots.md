@@ -29,8 +29,8 @@ node is immediately visible, along with everything downstream of it that's affec
 
 ![Pinouts](../media/pinouts.png)
 
-An industrial connector reference — pin numbering, signal assignment, and color coding — kept
-inside the same tool used for monitoring and diagnostics.
+An industrial connector reference, covering pin numbering, signal assignment, and color coding,
+kept inside the same tool used for monitoring and diagnostics.
 
 ---
 

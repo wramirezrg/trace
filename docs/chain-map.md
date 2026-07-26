@@ -2,7 +2,7 @@
 
 ![Chain Map](../media/chain-map.png)
 
-Signal problems aren't always the signal's fault — sometimes it's the network underneath.
+Sometimes the problem isn't the signal at all. It's the network carrying it.
 
 ## What it does
 
@@ -22,8 +22,8 @@ identifying exactly where a segment has failed instead of leaving that to guessw
 ## Why it matters
 
 On a daisy-chained industrial network, one bad connector or one failed device can take down
-everything downstream of it. Chain Map turns "the network is down somewhere" into "the network
-is down at this specific node."
+everything downstream of it. Instead of "the network is down somewhere," Chain Map tells you
+which node it's down at.
 
 ---
 

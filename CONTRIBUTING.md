@@ -1,9 +1,7 @@
 # Contributing
 
-Thanks for your interest in Diagrix.
-
-This repository contains **public documentation only** — it does not contain, and will not
-accept, source code contributions. Diagrix is closed-source commercial software; its source
+This repository contains **public documentation only**. It does not contain, and will not
+accept, source code contributions: Diagrix is closed-source commercial software, and its source
 code is maintained in a private repository.
 
 ## What you can contribute here

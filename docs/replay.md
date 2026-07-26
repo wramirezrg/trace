@@ -20,9 +20,9 @@ machine sequence can be analyzed after the fact with the same clarity as watchin
 
 ## Why it matters
 
-A lot of industrial troubleshooting is really a timing problem: which signal changed first, how
-long did a step take, did an interlock release before or after it should have. Replay turns a
-recording into an answer instead of a guess.
+A lot of industrial troubleshooting comes down to timing: which signal changed first, how long a
+step took, whether an interlock released before or after it should have. Replay turns a recording
+into an answer instead of a guess.
 
 ---
 

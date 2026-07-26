@@ -13,8 +13,8 @@ question quickly. Neither option is built for speed.
 
 ## The approach
 
-Diagrix puts four capabilities in one application, all aimed at cutting down the time between
-"something's wrong" and "here's why":
+Diagrix puts four capabilities in one application, all aimed at shortening the time between
+noticing a problem and understanding what caused it:
 
 - **[Live Monitoring](monitor.md)** — see signal behavior as it happens
 - **[Replay](replay.md)** — go back and analyze what already happened
@@ -32,11 +32,11 @@ Diagrix puts four capabilities in one application, all aimed at cutting down the
 
 ## Design principles
 
-- **Speed over ceremony.** No project setup ritual — connect and see live data in seconds.
+- **Speed over ceremony.** Skip the project setup; connect and see live data in seconds.
 - **Works offline.** A built-in simulation mode means the tool is useful even without a live PLC
   connection, for training, demos, or preparing a layout in advance.
-- **Local by default.** Diagrix runs on the technician's machine. No cloud account, no
-  telemetry, no dependency on outside infrastructure to do the job.
+- **Local by default.** Diagrix runs on the technician's own machine and doesn't depend on
+  outside infrastructure to do its job.
 
 ## Learn more
 

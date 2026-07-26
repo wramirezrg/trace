@@ -7,8 +7,8 @@
 **An industrial troubleshooting and diagnostics platform for PLC-connected equipment.**
 
 Diagrix gives maintenance technicians, automation engineers, and controls engineers a fast,
-direct view into what a PLC-connected machine is actually doing — in real time and after the
-fact — without an expensive proprietary toolchain.
+direct view into what a PLC-connected machine is doing, in real time and after the fact, without
+an expensive proprietary toolchain.
 
 [**Visit diagrix.us →**](https://diagrix.us)
 
@@ -22,9 +22,9 @@ Industrial troubleshooting usually means one of two things: staring at a control
 to catch a fault as it happens, or digging through vendor-specific tools that are expensive,
 locked to a single hardware ecosystem, or too generic to answer field questions quickly.
 
-Diagrix is built around a simpler idea: give the people closest to the machine — technicians,
-electricians, and engineers — a direct, real-time and historical view of signal behavior, plus
-the network and connector context needed to find a problem fast.
+Diagrix is built around a simpler idea: give the people closest to the machine (technicians,
+electricians, and engineers) a direct, real-time and historical view of signal behavior, plus the
+network and connector context needed to find a problem fast.
 
 ## Feature Highlights
 
@@ -34,14 +34,14 @@ the network and connector context needed to find a problem fast.
 - **Network topology mapping** for industrial Ethernet daisy chains
 - **Connector pinout reference library** for common industrial standards
 - **CSV export and recording** for reporting and further analysis
-- Runs as a local desktop application — no cloud dependency, no telemetry
+- Installs and runs as a local desktop application, with no cloud dependency
 
 ## Screenshots
 
 ### Live Monitoring
 ![Live Monitoring](media/monitor.png)
-Multiple signals, digital and analog, tracked live and side by side — built for spotting a fault
-the moment it happens instead of after the fact.
+Multiple signals, digital and analog, tracked live and side by side, so a fault is visible the
+moment it happens instead of being pieced together afterward.
 
 ### Replay
 ![Replay](media/replay.png)
@@ -55,8 +55,8 @@ exactly where a network segment has failed.
 
 ### Pinouts
 ![Pinouts](media/pinouts.png)
-An offline reference for industrial connector standards — pin numbering, signal assignment, and
-color coding, without leaving the application.
+An offline reference for industrial connector standards, covering pin numbering, signal
+assignment, and color coding, without leaving the application.
 
 See [`docs/screenshots.md`](docs/screenshots.md) for the full gallery with extended
 descriptions.
@@ -72,8 +72,8 @@ descriptions.
 
 ## Why Diagrix
 
-- **Built for the field, not the lab.** Fast to open, fast to point at a PLC, fast to get an
-  answer — no project files or engineering workstation required.
+- **Built for the field, not the lab.** Fast to open and fast to point at a PLC, with no project
+  files or engineering workstation to set up first.
 - **One tool, four jobs.** Live monitoring, historical replay, network diagnostics, and a
   connector reference live in a single application instead of four separate ones.
 - **Works without a live PLC.** A built-in simulation mode makes it possible to learn the tool,
@@ -85,14 +85,14 @@ descriptions.
 
 Diagrix is a lightweight desktop application for Windows. It connects to PLC-connected equipment
 over standard industrial Ethernet, runs entirely on the local machine, and stores its
-configuration and recordings locally — there is no server component, no account requirement, and
-no telemetry. This repository documents the product; the application itself is closed-source
+configuration and recordings locally. There's no server component, no account requirement, and no
+telemetry. This repository documents the product; the application itself is closed-source
 commercial software.
 
 ## Roadmap
 
-Diagrix is under active development. The short version of where it's headed — full detail in
-[`ROADMAP.md`](ROADMAP.md):
+Diagrix is under active development. Here's the short version of where it's headed; the full
+breakdown is in [`ROADMAP.md`](ROADMAP.md):
 
 - **0.9 — Core Platform:** live monitoring, replay, CSV export, chain map, pinout library
 - **1.0 — Professional Release:** licensing, settings sync, refined UI, installer, automatic updates
@@ -101,7 +101,7 @@ Diagrix is under active development. The short version of where it's headed — 
 
 ## Current Development Status
 
-Diagrix's core modules — Live Monitoring, Replay, Chain Map, and the Pinout Library — are
+Diagrix's core modules (Live Monitoring, Replay, Chain Map, and the Pinout Library) are
 functional and in daily use. The project is progressing toward its 1.0 professional release.
 Follow progress and get in touch through the channels below.
 
@@ -115,7 +115,7 @@ for future releases.
 No. Diagrix runs entirely on the local network segment where the PLC lives.
 
 **Can recorded sessions be replayed later?**
-Yes — the Replay module is built specifically for loading and analyzing past recording sessions.
+Yes. The Replay module is built specifically for loading and analyzing past recording sessions.
 
 **Can I export data?**
 Yes, recordings can be exported to CSV for reporting or further analysis in other tools.
@@ -133,6 +133,6 @@ See the [full FAQ](docs/faq.md) for more.
 
 ## License
 
-This repository (documentation and media) is provided for informational purposes only — see
+This repository (documentation and media) is provided for informational purposes only. See
 [`LICENSE.md`](LICENSE.md). It does not grant any license to the Diagrix software itself; visit
 [diagrix.us](https://diagrix.us) for product licensing information.

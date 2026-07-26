@@ -5,32 +5,32 @@ Allen-Bradley controllers over EtherNet/IP. Support for additional protocols is 
 for future releases — see the [Roadmap](roadmap.md).
 
 **Is an internet connection required?**
-No. Diagrix connects directly to PLC-connected equipment over the local industrial network. No
-internet connection or cloud account is required to use it.
+Diagrix connects directly to PLC-connected equipment over the local industrial network, so no
+internet connection or cloud account is needed.
 
 **Can recordings be replayed?**
-Yes. The [Replay](replay.md) module is built specifically for loading and analyzing previously
-recorded sessions, complete with time cursors for precise event measurement.
+That's what the [Replay](replay.md) module is for: loading and analyzing previously recorded
+sessions, complete with time cursors for precise event measurement.
 
 **Can I export data?**
-Yes. Recorded sessions can be exported to CSV for reporting or further analysis in spreadsheets
-or other tools.
+Recorded sessions can be exported to CSV for reporting or further analysis in spreadsheets or
+other tools.
 
 **Is Diagrix open source?**
-No. Diagrix is closed-source commercial software. This repository is the public documentation
-and product overview; the source code is maintained privately.
+It isn't. Diagrix is closed-source commercial software; this repository is the public
+documentation and product overview, and the source code is maintained privately.
 
 **Can I monitor multiple signals at once?**
-Yes. [Live Monitoring](monitor.md) supports multiple synchronized graphs, each capable of
-tracking several digital and analog signals simultaneously.
+[Live Monitoring](monitor.md) supports multiple synchronized graphs, each capable of tracking
+several digital and analog signals simultaneously.
 
 **Who is this software for?**
 Maintenance technicians, automation engineers, controls engineers, commissioning engineers,
-industrial electricians, and manufacturing engineers — anyone responsible for keeping
+industrial electricians, and manufacturing engineers: anyone responsible for keeping
 PLC-connected equipment running.
 
 **Does Diagrix require a live PLC to try?**
-No. A built-in simulation mode generates realistic signal and network data, so the tool can be
+No — a built-in simulation mode generates realistic signal and network data, so the tool can be
 evaluated, demonstrated, or used for training without a live connection.
 
 **Where can I ask a question that isn't answered here?**
