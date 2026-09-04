@@ -1,6 +1,6 @@
 # Overview
 
-Diagrix is an industrial troubleshooting and diagnostics platform for PLC-connected equipment.
+TRACE is an industrial troubleshooting and diagnostics platform for PLC-connected equipment.
 It's built for the people who are physically at the machine when something goes wrong, or who
 need to understand exactly what happened after the fact.
 
@@ -13,7 +13,7 @@ question quickly. Neither option is built for speed.
 
 ## The approach
 
-Diagrix puts four capabilities in one application, all aimed at shortening the time between
+TRACE puts four capabilities in one application, all aimed at shortening the time between
 noticing a problem and understanding what caused it:
 
 - **[Live Monitoring](monitor.md)** — see signal behavior as it happens
@@ -35,7 +35,7 @@ noticing a problem and understanding what caused it:
 - **Speed over ceremony.** Skip the project setup; connect and see live data in seconds.
 - **Works offline.** A built-in simulation mode means the tool is useful even without a live PLC
   connection, for training, demos, or preparing a layout in advance.
-- **Local by default.** Diagrix runs on the technician's own machine and doesn't depend on
+- **Local by default.** TRACE runs on the technician's own machine and doesn't depend on
   outside infrastructure to do its job.
 
 ## Learn more

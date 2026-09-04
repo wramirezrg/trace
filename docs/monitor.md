@@ -2,7 +2,7 @@
 
 ![Live Monitoring](../media/monitor.png)
 
-The core of Diagrix: a direct, real-time view of PLC signal behavior.
+The core of TRACE: a direct, real-time view of PLC signal behavior.
 
 ## What it does
 

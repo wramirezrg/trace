@@ -1,28 +1,28 @@
 <p align="center">
-  <img src="media/diagrix-banner.png" alt="Diagrix — Industrial Troubleshooting Platform" width="100%">
+  <img src="media/trace-banner.png" alt="TRACE — Industrial Troubleshooting Platform" width="100%">
 </p>
 
-# Diagrix
+# TRACE
 
 **An industrial troubleshooting and diagnostics platform for PLC-connected equipment.**
 
-Diagrix gives maintenance technicians, automation engineers, and controls engineers a fast,
+TRACE gives maintenance technicians, automation engineers, and controls engineers a fast,
 direct view into what a PLC-connected machine is doing, in real time and after the fact, without
 an expensive proprietary toolchain.
 
-[**Visit diagrix.us →**](https://diagrix.us)
+[**Visit www.siganor.com →**](https://www.siganor.com)
 
-![Diagrix Monitor — real-time PLC signal monitoring](media/monitor.png)
+![TRACE Monitor — real-time PLC signal monitoring](media/monitor.png)
 
 ---
 
-## What Diagrix Does
+## What TRACE Does
 
 Industrial troubleshooting usually means one of two things: staring at a control panel hoping
 to catch a fault as it happens, or digging through vendor-specific tools that are expensive,
 locked to a single hardware ecosystem, or too generic to answer field questions quickly.
 
-Diagrix is built around a simpler idea: give the people closest to the machine (technicians,
+TRACE is built around a simpler idea: give the people closest to the machine (technicians,
 electricians, and engineers) a direct, real-time and historical view of signal behavior, plus the
 network and connector context needed to find a problem fast.
 
@@ -70,7 +70,7 @@ descriptions.
 | **Chain Map** | Industrial Ethernet topology and fault localization | [docs/chain-map.md](docs/chain-map.md) |
 | **Pinout Library** | Reference for industrial connector standards | [docs/pinouts.md](docs/pinouts.md) |
 
-## Why Diagrix
+## Why TRACE
 
 - **Built for the field, not the lab.** Fast to open and fast to point at a PLC, with no project
   files or engineering workstation to set up first.
@@ -78,12 +78,12 @@ descriptions.
   connector reference live in a single application instead of four separate ones.
 - **Works without a live PLC.** A built-in simulation mode makes it possible to learn the tool,
   prepare a layout, or run a demo entirely offline.
-- **Your data stays yours.** Diagrix runs locally and does not transmit signal data, tags, or
+- **Your data stays yours.** TRACE runs locally and does not transmit signal data, tags, or
   project information anywhere.
 
 ## Technology Overview
 
-Diagrix is a lightweight desktop application for Windows. It connects to PLC-connected equipment
+TRACE is a lightweight desktop application for Windows. It connects to PLC-connected equipment
 over standard industrial Ethernet, runs entirely on the local machine, and stores its
 configuration and recordings locally. There's no server component, no account requirement, and no
 telemetry. This repository documents the product; the application itself is closed-source
@@ -91,7 +91,7 @@ commercial software.
 
 ## Roadmap
 
-Diagrix is under active development. Here's the short version of where it's headed; the full
+TRACE is under active development. Here's the short version of where it's headed; the full
 breakdown is in [`ROADMAP.md`](ROADMAP.md):
 
 - **0.9 — Core Platform:** live monitoring, replay, CSV export, chain map, pinout library
@@ -101,7 +101,7 @@ breakdown is in [`ROADMAP.md`](ROADMAP.md):
 
 ## Current Development Status
 
-Diagrix's core modules (Live Monitoring, Replay, Chain Map, and the Pinout Library) are
+TRACE's core modules (Live Monitoring, Replay, Chain Map, and the Pinout Library) are
 functional and in daily use. The project is progressing toward its 1.0 professional release.
 Follow progress and get in touch through the channels below.
 
@@ -112,7 +112,7 @@ Allen-Bradley controllers over EtherNet/IP. Support for additional protocols is 
 for future releases.
 
 **Is an internet connection required?**
-No. Diagrix runs entirely on the local network segment where the PLC lives.
+No. TRACE runs entirely on the local network segment where the PLC lives.
 
 **Can recorded sessions be replayed later?**
 Yes. The Replay module is built specifically for loading and analyzing past recording sessions.
@@ -120,19 +120,19 @@ Yes. The Replay module is built specifically for loading and analyzing past reco
 **Can I export data?**
 Yes, recordings can be exported to CSV for reporting or further analysis in other tools.
 
-**Is Diagrix open source?**
-No. Diagrix is closed-source commercial software. This repository documents the product
+**Is TRACE open source?**
+No. TRACE is closed-source commercial software. This repository documents the product
 publicly; the source code is not published.
 
 See the [full FAQ](docs/faq.md) for more.
 
 ## Contact
 
-- Website: [diagrix.us](https://diagrix.us)
-- Email: [info@diagrix.us](mailto:info@diagrix.us)
+- Website: [www.siganor.com](https://www.siganor.com)
+- Email: [info@siganor.com](mailto:info@siganor.com)
 
 ## License
 
 This repository (documentation and media) is provided for informational purposes only. See
-[`LICENSE.md`](LICENSE.md). It does not grant any license to the Diagrix software itself; visit
-[diagrix.us](https://diagrix.us) for product licensing information.
+[`LICENSE.md`](LICENSE.md). It does not grant any license to the TRACE software itself; visit
+[www.siganor.com](https://www.siganor.com) for product licensing information.

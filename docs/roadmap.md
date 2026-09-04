@@ -1,6 +1,6 @@
 # Roadmap
 
-The full, detailed roadmap for Diagrix lives in [`ROADMAP.md`](../ROADMAP.md) at the root of this
+The full, detailed roadmap for TRACE lives in [`ROADMAP.md`](../ROADMAP.md) at the root of this
 repository.
 
 In short, development is organized into four stages:

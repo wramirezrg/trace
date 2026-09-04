@@ -1,11 +1,11 @@
 # Roadmap
 
-This roadmap describes the planned direction of Diagrix. It reflects current priorities and may
+This roadmap describes the planned direction of TRACE. It reflects current priorities and may
 change as development progresses; no dates are guaranteed.
 
 ## Version 0.9 — Core Platform
 
-The foundation of Diagrix: everything needed for day-to-day field troubleshooting.
+The foundation of TRACE: everything needed for day-to-day field troubleshooting.
 
 - Live Monitoring — real-time digital and analog signal graphing
 - Replay — historical session playback and analysis
@@ -25,7 +25,7 @@ Turning the core platform into a polished, distributable product.
 
 ## Version 1.5 — Operations
 
-Expanding Diagrix from a diagnostics tool into a day-to-day operations companion.
+Expanding TRACE from a diagnostics tool into a day-to-day operations companion.
 
 - Alarm Manager
 - Report Generator
@@ -46,5 +46,5 @@ Bringing analysis assistance into the platform itself.
 
 ---
 
-Follow progress at [diagrix.us](https://diagrix.us) or via this repository's
-[Issues](https://github.com/wramirezrg/diagrix/issues).
+Follow progress at [www.siganor.com](https://www.siganor.com) or via this repository's
+[Issues](https://github.com/wramirezrg/trace/issues).
