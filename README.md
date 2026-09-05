@@ -78,8 +78,9 @@ descriptions.
   files or engineering workstation to set up first.
 - **One tool, four jobs.** Live monitoring, historical replay, network diagnostics, and a
   connector reference live in a single application instead of four separate ones.
-- **Works without a live PLC.** A built-in simulation mode makes it possible to learn the tool,
-  prepare a layout, or run a demo entirely offline.
+- **Works without a live PLC.** A built-in simulation mode means students and trainees can
+  practice reading and troubleshooting signals with no real PLC hardware required, and the
+  same views carry over once they're working on a real one.
 - **Your data stays yours.** TRACE runs locally and does not transmit signal data, tags, or
   project information anywhere.
 

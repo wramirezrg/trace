@@ -27,11 +27,14 @@ several digital and analog signals simultaneously.
 **Who is this software for?**
 Maintenance technicians, automation engineers, controls engineers, commissioning engineers,
 industrial electricians, and manufacturing engineers: anyone responsible for keeping
-PLC-connected equipment running.
+PLC-connected equipment running. It's also used by students and trainees learning to read and
+troubleshoot PLC signals, before or alongside working with real equipment.
 
 **Does TRACE require a live PLC to try?**
 No — a built-in simulation mode generates realistic signal and network data, so the tool can be
-evaluated, demonstrated, or used for training without a live connection.
+evaluated, demonstrated, or used for training without a live connection. Students and trainees
+can practice the same workflows on simulated data first, then move to a real PLC without
+learning a different tool.
 
 **Where can I ask a question that isn't answered here?**
 Open an [Issue](https://github.com/wramirezrg/trace/issues) using the Question template, or email
