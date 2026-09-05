@@ -1,11 +1,11 @@
 name: Feature Request
-description: Suggest an idea or improvement for Diagrix
+description: Suggest an idea or improvement for TRACE
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Have an idea for Diagrix? Check the [Roadmap](../../ROADMAP.md) first to see if it's
+        Have an idea for TRACE? Check the [Roadmap](../../ROADMAP.md) first to see if it's
         already planned.
 
   - type: textarea
@@ -20,7 +20,7 @@ body:
     id: proposal
     attributes:
       label: Proposed solution
-      description: What would you like Diagrix to do?
+      description: What would you like TRACE to do?
     validations:
       required: true
 

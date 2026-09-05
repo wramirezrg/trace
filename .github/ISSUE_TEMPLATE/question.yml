@@ -1,5 +1,5 @@
 name: Question
-description: Ask a general question about Diagrix
+description: Ask a general question about TRACE
 labels: ["question"]
 body:
   - type: markdown

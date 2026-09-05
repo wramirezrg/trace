@@ -1,18 +1,18 @@
 name: Bug Report
-description: Report a problem you encountered while using Diagrix
+description: Report a problem you encountered while using TRACE
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a problem. This repository documents Diagrix
+        Thanks for taking the time to report a problem. This repository documents TRACE
         publicly; the application itself is closed-source, so please include enough detail
-        for us to understand and reproduce the issue.
+        for me to understand and reproduce the issue.
 
   - type: input
     id: version
     attributes:
-      label: Diagrix version
+      label: TRACE version
       description: Found in the application's About tab
       placeholder: e.g. 0.9
     validations:

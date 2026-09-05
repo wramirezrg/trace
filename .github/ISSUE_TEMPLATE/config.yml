@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Visit the Diagrix website
-    url: https://diagrix.us
+  - name: Visit the Siganor website
+    url: https://www.siganor.com
     about: Product overview, updates, and contact information.
   - name: Email support
-    url: mailto:info@diagrix.us
+    url: mailto:info@siganor.com
     about: For anything that shouldn't be a public issue, including security reports.

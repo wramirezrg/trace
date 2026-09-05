@@ -28,8 +28,10 @@ network and connector context needed to find a problem fast.
 
 ## Feature Highlights
 
-- **Real-time monitoring** of PLC signals with multiple synchronized graphs
+- **Real-time monitoring** of PLC signals with multiple synchronized graphs, in real
+  engineering units
 - **Digital and analog** signal visualization, side by side
+- **Conditional recording** that starts and stops automatically on a signal condition
 - **Session replay** with time cursors for post-incident analysis
 - **Network topology mapping** for industrial Ethernet daisy chains
 - **Connector pinout reference library** for common industrial standards

@@ -14,7 +14,7 @@ code is maintained in a private repository.
 - **General questions** — open an Issue using the Question template, or email
   [info@siganor.com](mailto:info@siganor.com).
 
-## What we can't accept here
+## What I can't accept here
 
 - Source code, patches, or pull requests against the TRACE application itself
 - Requests for access to proprietary implementation details
