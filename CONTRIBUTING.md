@@ -6,12 +6,12 @@ code is maintained in a private repository.
 
 ## What you can contribute here
 
-- **Documentation fixes** — typos, unclear wording, outdated information. Open a pull request
+- **Documentation fixes**: typos, unclear wording, outdated information. Open a pull request
   against any file in this repository.
-- **Feature requests** — open an [Issue](https://github.com/wramirezrg/trace/issues) using the Feature Request template.
-- **Bug reports** — if you're using TRACE and hit a problem, open an Issue using the Bug
+- **Feature requests**: open an [Issue](https://github.com/wramirezrg/trace/issues) using the Feature Request template.
+- **Bug reports**: if you're using TRACE and hit a problem, open an Issue using the Bug
   Report template. Include your TRACE version, PLC/protocol in use, and steps to reproduce.
-- **General questions** — open an Issue using the Question template, or email
+- **General questions**: open an Issue using the Question template, or email
   [info@siganor.com](mailto:info@siganor.com).
 
 ## What I can't accept here
@@ -23,7 +23,7 @@ code is maintained in a private repository.
 
 1. Keep documentation PRs focused on a single file or topic.
 2. Write in the same professional, factual tone as the rest of the repository.
-3. Do not introduce placeholder text — every change should be complete and accurate.
+3. Do not introduce placeholder text; every change should be complete and accurate.
 
 ## Code of conduct
 

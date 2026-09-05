@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/trace-banner.png" alt="TRACE — Industrial Troubleshooting Platform" width="100%">
+  <img src="media/trace-banner.png" alt="TRACE: Industrial Troubleshooting Platform" width="100%">
 </p>
 
 # TRACE
@@ -12,7 +12,7 @@ an expensive proprietary toolchain.
 
 [**Visit www.siganor.com →**](https://www.siganor.com)
 
-![TRACE Monitor — real-time PLC signal monitoring](media/monitor.png)
+![TRACE Monitor: real-time PLC signal monitoring](media/monitor.png)
 
 ---
 
@@ -97,10 +97,10 @@ commercial software.
 TRACE is under active development. Here's the short version of where it's headed; the full
 breakdown is in [`ROADMAP.md`](ROADMAP.md):
 
-- **0.9 — Core Platform:** live monitoring, replay, CSV export, chain map, pinout library
-- **1.0 — Professional Release:** licensing, settings sync, refined UI, installer, automatic updates
-- **1.5 — Operations:** alarm manager, report generator, PDF reports, project & machine profiles
-- **2.0 — Intelligence:** AI assistant, failure analysis, maintenance suggestions, root cause analysis
+- **0.9 (Core Platform):** live monitoring, replay, CSV export, chain map, pinout library
+- **1.0 (Professional Release):** licensing, settings sync, refined UI, installer, automatic updates
+- **1.5 (Operations):** alarm manager, report generator, PDF reports, project & machine profiles
+- **2.0 (Intelligence):** AI assistant, failure analysis, maintenance suggestions, root cause analysis
 
 ## Current Development Status
 

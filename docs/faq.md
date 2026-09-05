@@ -2,7 +2,7 @@
 
 **What PLCs are supported?**
 Allen-Bradley controllers over EtherNet/IP. Support for additional protocols is being evaluated
-for future releases — see the [Roadmap](roadmap.md).
+for future releases. See the [Roadmap](roadmap.md) for details.
 
 **Is an internet connection required?**
 TRACE connects directly to PLC-connected equipment over the local industrial network, so no
@@ -31,7 +31,7 @@ PLC-connected equipment running. It's also used by students and trainees learnin
 troubleshoot PLC signals, before or alongside working with real equipment.
 
 **Does TRACE require a live PLC to try?**
-No — a built-in simulation mode generates realistic signal and network data, so the tool can be
+No. A built-in simulation mode generates realistic signal and network data, so the tool can be
 evaluated, demonstrated, or used for training without a live connection. Students and trainees
 can practice the same workflows on simulated data first, then move to a real PLC without
 learning a different tool.

@@ -11,13 +11,13 @@ identifying exactly where a segment has failed instead of leaving that to guessw
 
 ## Capabilities
 
-- **Industrial Ethernet visualization** — see the devices in a network segment as a topology map
-- **Daisy chain diagnostics** — purpose-built for series-connected device chains common in
+- **Industrial Ethernet visualization**: see the devices in a network segment as a topology map
+- **Daisy chain diagnostics**: purpose-built for series-connected device chains common in
   industrial networks
-- **Node latency** — per-node response time, at a glance
-- **Topology discovery** — map out a network segment automatically
-- **Fault localization** — pinpoint the exact node where a chain breaks
-- **Network simulation** — explore and test the tool without a live network
+- **Node latency**: per-node response time, at a glance
+- **Topology discovery**: map out a network segment automatically
+- **Fault localization**: pinpoint the exact node where a chain breaks
+- **Network simulation**: explore and test the tool without a live network
 
 ## Why it matters
 

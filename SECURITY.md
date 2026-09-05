@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository contains documentation and media only — it does not contain executable code, so
+This repository contains documentation and media only. It does not contain executable code, so
 there is no attack surface here beyond the standard risks of any static content repository.
 
 This policy covers vulnerabilities in **the TRACE application itself** (the software this

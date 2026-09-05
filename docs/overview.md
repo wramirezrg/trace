@@ -16,10 +16,10 @@ question quickly. Neither option is built for speed.
 TRACE puts four capabilities in one application, all aimed at shortening the time between
 noticing a problem and understanding what caused it:
 
-- **[Live Monitoring](monitor.md)** — see signal behavior as it happens
-- **[Replay](replay.md)** — go back and analyze what already happened
-- **[Chain Map](chain-map.md)** — see the network the equipment depends on
-- **[Pinout Library](pinouts.md)** — reference connector standards without leaving the tool
+- **[Live Monitoring](monitor.md)**: see signal behavior as it happens
+- **[Replay](replay.md)**: go back and analyze what already happened
+- **[Chain Map](chain-map.md)**: see the network the equipment depends on
+- **[Pinout Library](pinouts.md)**: reference connector standards without leaving the tool
 
 ## Who it's for
 

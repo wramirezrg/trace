@@ -12,19 +12,19 @@ maintenance log.
 
 ## Capabilities
 
-- **Multiple synchronized graphs** — track several signals across independent graph windows at
+- **Multiple synchronized graphs**: track several signals across independent graph windows at
   the same time
-- **Digital events** — on/off signal transitions rendered clearly on their own timeline
-- **Analog trends** — continuous numeric values plotted live, in real engineering units
-  (°C, bar, RPM, and other common units — not just the raw PLC value)
-- **Color customization** — assign colors to signals so a busy chart stays readable
-- **Recording** — capture a live session for later analysis, with an optional trigger that
+- **Digital events**: on/off signal transitions rendered clearly on their own timeline
+- **Analog trends**: continuous numeric values plotted live, in real engineering units
+  (°C, bar, RPM, and other common units, not just the raw PLC value)
+- **Color customization**: assign colors to signals so a busy chart stays readable
+- **Recording**: capture a live session for later analysis, with an optional trigger that
   starts (and optionally stops) recording automatically when a signal crosses a condition
-- **Configurable sampling interval** — poll as fast as needed for quick transients, or slower
+- **Configurable sampling interval**: poll as fast as needed for quick transients, or slower
   for long-running trends, set independently per graph
-- **CSV export** — pull recorded data into spreadsheets or other analysis tools
-- **Signal organization** — group and manage the signals being watched
-- **Independent graph windows** — separate machine sections or subsystems into their own views
+- **CSV export**: pull recorded data into spreadsheets or other analysis tools
+- **Signal organization**: group and manage the signals being watched
+- **Independent graph windows**: separate machine sections or subsystems into their own views
 
 ## Why it matters
 

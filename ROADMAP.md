@@ -3,17 +3,17 @@
 This roadmap describes the planned direction of TRACE. It reflects current priorities and may
 change as development progresses; no dates are guaranteed.
 
-## Version 0.9 — Core Platform
+## Version 0.9: Core Platform
 
 The foundation of TRACE: everything needed for day-to-day field troubleshooting.
 
-- Live Monitoring — real-time digital and analog signal graphing
-- Replay — historical session playback and analysis
-- CSV Export — recording export for reporting and offline analysis
-- Chain Map — industrial Ethernet topology diagnostics
-- Pinout Library — industrial connector reference
+- Live Monitoring: real-time digital and analog signal graphing
+- Replay: historical session playback and analysis
+- CSV Export: recording export for reporting and offline analysis
+- Chain Map: industrial Ethernet topology diagnostics
+- Pinout Library: industrial connector reference
 
-## Version 1.0 — Professional Release
+## Version 1.0: Professional Release
 
 Turning the core platform into a polished, distributable product.
 
@@ -23,7 +23,7 @@ Turning the core platform into a polished, distributable product.
 - Installer
 - Automatic updates
 
-## Version 1.5 — Operations
+## Version 1.5: Operations
 
 Expanding TRACE from a diagnostics tool into a day-to-day operations companion.
 
@@ -33,7 +33,7 @@ Expanding TRACE from a diagnostics tool into a day-to-day operations companion.
 - Project Management
 - Machine Profiles
 
-## Version 2.0 — Intelligence
+## Version 2.0: Intelligence
 
 Bringing analysis assistance into the platform itself.
 

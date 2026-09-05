@@ -8,7 +8,8 @@ same tool used for monitoring and diagnostics.
 ## What it does
 
 The Pinout Library provides a quick, offline reference for common industrial connector
-standards — no searching through scattered datasheets or old reference cards in the field.
+standards, so there's no need to search through scattered datasheets or old reference cards
+in the field.
 
 ## Capabilities
 
@@ -20,9 +21,9 @@ standards — no searching through scattered datasheets or old reference cards i
   - Sensor and actuator connectors
   - Encoders
   - Industrial power connectors
-- **Connector pin numbering** — clear, labeled diagrams
-- **Signal descriptions** — what each pin is for
-- **Color coding** — standard wire color references where applicable
+- **Connector pin numbering**: clear, labeled diagrams
+- **Signal descriptions**: what each pin is for
+- **Color coding**: standard wire color references where applicable
 
 ## Why it matters
 
