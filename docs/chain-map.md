@@ -6,8 +6,8 @@ Sometimes the problem isn't the signal at all. It's the network carrying it.
 
 ## What it does
 
-Chain Map visualizes the industrial Ethernet network that connects PLC-related devices,
-identifying exactly where a segment has failed instead of leaving that to guesswork.
+Chain Map ping-scans the industrial Ethernet network that connects PLC-related devices, showing
+reachability and per-node latency to help narrow down where a communication problem is.
 
 ## Capabilities
 
@@ -16,14 +16,14 @@ identifying exactly where a segment has failed instead of leaving that to guessw
   industrial networks
 - **Node latency**: per-node response time, at a glance
 - **Topology discovery**: map out a network segment automatically
-- **Fault localization**: pinpoint the exact node where a chain breaks
+- **Saved topologies**: save a scanned layout and reload it later
 - **Network simulation**: explore and test the tool without a live network
 
 ## Why it matters
 
 On a daisy-chained industrial network, one bad connector or one failed device can take down
-everything downstream of it. Instead of "the network is down somewhere," Chain Map tells you
-which node it's down at.
+everything downstream of it. Chain Map narrows down where in the chain to start looking, instead
+of leaving "the network is down somewhere" as the only lead.
 
 ---
 

@@ -22,7 +22,7 @@ the sequence took.
 
 ![Chain Map](../media/chain-map.png)
 
-An industrial Ethernet daisy chain, mapped node by node with live latency figures. The failed
+An industrial Ethernet daisy chain, mapped node by node with live latency figures. An unreachable
 node is immediately visible, along with everything downstream of it that's affected.
 
 ## Pinouts
@@ -31,6 +31,14 @@ node is immediately visible, along with everything downstream of it that's affec
 
 An industrial connector reference, covering pin numbering, signal assignment, and color coding,
 kept inside the same tool used for monitoring and diagnostics.
+
+## Simulation Mode
+
+![Simulation Mode](../media/simulation.png)
+
+The "Motor start sequence" scenario running with no PLC connected: `Motor_Running` follows
+`Start_Command` with its own delay, and `Motor_Current` climbs with a realistic first-order
+response as the motor starts.
 
 ---
 

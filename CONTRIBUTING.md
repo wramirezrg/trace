@@ -1,8 +1,8 @@
 # Contributing
 
 This repository contains **public documentation only**. It does not contain, and will not
-accept, source code contributions: TRACE is closed-source commercial software, and its source
-code is maintained in a private repository.
+accept, source code contributions: TRACE is closed-source, and its source code is maintained in
+a private repository.
 
 ## What you can contribute here
 

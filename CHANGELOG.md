@@ -6,6 +6,27 @@ public documentation site, not the internal version history of the TRACE applica
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-09-06
+
+### Added
+
+- **Simulation Mode documentation** (`docs/simulation.md`): the 13 configurable digital/analog
+  signal patterns, ready-made scenarios, manual events, and simulated communication interruption
+  added in TRACE v1.9.0, plus a new screenshot and matching FAQ entries.
+
+### Changed
+
+- Rewrote `ROADMAP.md`: TRACE is already free with all current features included, so the old
+  "1.0 — licensing" milestone no longer applied. Replaced the four-stage plan with a factual
+  Shipped / Exploring split, and synced the README's inline summary and `docs/roadmap.md` to
+  match.
+- Corrected `docs/chain-map.md` and `docs/pinouts.md`, which still overstated what the
+  application does (automatic fault localization instead of reachability/latency; a longer
+  aspirational connector list instead of the four standards TRACE actually supports).
+- Fixed remaining "closed-source commercial software" wording in `CONTRIBUTING.md` and
+  `LICENSE.md` — TRACE is free, not a paid commercial license.
+- Pointed `origin` at the repository's current canonical name (`wramirezrg/trace`).
+
 ## [1.1.0] - 2026-09-04
 
 ### Changed

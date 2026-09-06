@@ -16,9 +16,12 @@ sessions, complete with time cursors for precise event measurement.
 Recorded sessions can be exported to CSV for reporting or further analysis in spreadsheets or
 other tools.
 
+**Is TRACE free?**
+Yes. TRACE is free to use, with all current features included: no trial, no paid tier.
+
 **Is TRACE open source?**
-It isn't. TRACE is closed-source commercial software; this repository is the public
-documentation and product overview, and the source code is maintained privately.
+It isn't. TRACE is free to use, but its source code is not public; this repository is the public
+documentation and product overview.
 
 **Can I monitor multiple signals at once?**
 [Live Monitoring](monitor.md) supports multiple synchronized graphs, each capable of tracking
@@ -31,10 +34,19 @@ PLC-connected equipment running. It's also used by students and trainees learnin
 troubleshoot PLC signals, before or alongside working with real equipment.
 
 **Does TRACE require a live PLC to try?**
-No. A built-in simulation mode generates realistic signal and network data, so the tool can be
-evaluated, demonstrated, or used for training without a live connection. Students and trainees
-can practice the same workflows on simulated data first, then move to a real PLC without
+No. [Simulation Mode](simulation.md) lets you configure digital and analog signals, load prepared
+scenarios, and introduce manual events without connecting to physical PLC hardware. Students and
+trainees can practice the same workflows on simulated data first, then move to a real PLC without
 learning a different tool.
+
+**Can I use TRACE for teaching or practice?**
+Yes. Prepared scenarios and configurable signals provide a way to demonstrate signal behavior and
+practice using TRACE in a classroom, personal lab, or technician training session.
+
+**Can I simulate intermittent signal problems?**
+Yes. Digital patterns include contact bounce and intermittent dropouts. Manual controls also let
+you force or freeze simulated values, apply temporary analog spikes or dips, and interrupt
+simulated communication for a panel. See [Simulation Mode](simulation.md).
 
 **Where can I ask a question that isn't answered here?**
 Open an [Issue](https://github.com/wramirezrg/trace/issues) using the Question template, or email

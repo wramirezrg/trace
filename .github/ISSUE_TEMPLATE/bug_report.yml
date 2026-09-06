@@ -14,7 +14,7 @@ body:
     attributes:
       label: TRACE version
       description: Found in the application's About tab
-      placeholder: e.g. 0.9
+      placeholder: e.g. 1.9.0
     validations:
       required: true
 
@@ -27,6 +27,7 @@ body:
         - Replay
         - Chain Map
         - Pinout Library
+        - Simulation Mode
         - Other / not sure
     validations:
       required: true

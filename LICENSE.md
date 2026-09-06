@@ -16,11 +16,11 @@ express or implied, is granted to:
 - Use, copy, modify, or distribute the TRACE software, which is **not** included in this
   repository
 
-## Licensing the TRACE software
+## Using the TRACE software
 
-TRACE is closed-source commercial software, licensed separately from this documentation. For
-product licensing terms, visit [www.siganor.com](https://www.siganor.com) or contact
-[info@siganor.com](mailto:info@siganor.com).
+TRACE is free to use and closed-source, distributed separately from this documentation. Visit
+[www.siganor.com/trace](https://www.siganor.com/trace) or contact
+[info@siganor.com](mailto:info@siganor.com) to get it.
 
 ## Questions
 

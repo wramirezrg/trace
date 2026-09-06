@@ -13,13 +13,14 @@ question quickly. Neither option is built for speed.
 
 ## The approach
 
-TRACE puts four capabilities in one application, all aimed at shortening the time between
+TRACE puts five capabilities in one application, all aimed at shortening the time between
 noticing a problem and understanding what caused it:
 
 - **[Live Monitoring](monitor.md)**: see signal behavior as it happens
 - **[Replay](replay.md)**: go back and analyze what already happened
 - **[Chain Map](chain-map.md)**: see the network the equipment depends on
 - **[Pinout Library](pinouts.md)**: reference connector standards without leaving the tool
+- **[Simulation Mode](simulation.md)**: configure signal patterns and scenarios, no PLC required
 
 ## Who it's for
 
@@ -29,12 +30,14 @@ noticing a problem and understanding what caused it:
 - Commissioning Engineers
 - Industrial Electricians
 - Manufacturing Engineers
+- Students and trainees learning industrial signal monitoring
 
 ## Design principles
 
 - **Speed over ceremony.** Skip the project setup; connect and see live data in seconds.
-- **Works offline.** A built-in simulation mode means the tool is useful even without a live PLC
-  connection, for training, demos, or preparing a layout in advance.
+- **Works offline.** Configurable simulation patterns and ready-made scenarios mean the tool is
+  useful even without a live PLC connection, for training, demos, or preparing a layout in
+  advance.
 - **Local by default.** TRACE runs on the technician's own machine and doesn't depend on
   outside infrastructure to do its job.
 
@@ -44,6 +47,7 @@ noticing a problem and understanding what caused it:
 - [Replay](replay.md)
 - [Chain Map](chain-map.md)
 - [Pinout Library](pinouts.md)
+- [Simulation Mode](simulation.md)
 - [Screenshots](screenshots.md)
 - [Roadmap](roadmap.md)
 - [FAQ](faq.md)

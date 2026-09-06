@@ -36,6 +36,8 @@ network and connector context needed to find a problem fast.
 - **Network topology mapping** for industrial Ethernet daisy chains
 - **Connector pinout reference library** for common industrial standards
 - **CSV export and recording** for reporting and further analysis
+- **Configurable simulation mode**: signal patterns, ready-made scenarios, and manual events, no
+  PLC required
 - Installs and runs as a local desktop application, with no cloud dependency
 
 ## Screenshots
@@ -52,13 +54,18 @@ each event took and how signals relate to one another.
 
 ### Chain Map
 ![Chain Map](media/chain-map.png)
-A live map of an industrial Ethernet daisy chain, showing per-node latency and pinpointing
-exactly where a network segment has failed.
+A live view of an industrial Ethernet daisy chain, showing reachability and per-node latency to
+help narrow down where a communication problem is.
 
 ### Pinouts
 ![Pinouts](media/pinouts.png)
 An offline reference for industrial connector standards, covering pin numbering, signal
 assignment, and color coding, without leaving the application.
+
+### Simulation Mode
+![Simulation Mode](media/simulation.png)
+A ready-made scenario running with no PLC connected: a motor's Running signal delayed off
+Start_Command, and its Current climbing with a realistic first-order response.
 
 See [`docs/screenshots.md`](docs/screenshots.md) for the full gallery with extended
 descriptions.
@@ -67,20 +74,22 @@ descriptions.
 
 | Module | Description | Learn more |
 |---|---|---|
-| **Live Monitoring** | Real-time graphing of digital and analog PLC signals | [docs/monitor.md](docs/monitor.md) |
+| **Live Monitoring** | Real-time graphing of digital and analog PLC signals, with conditional recording | [docs/monitor.md](docs/monitor.md) |
 | **Replay** | Historical playback and event analysis of recorded sessions | [docs/replay.md](docs/replay.md) |
-| **Chain Map** | Industrial Ethernet topology and fault localization | [docs/chain-map.md](docs/chain-map.md) |
+| **Chain Map** | Industrial Ethernet topology and reachability diagnostics | [docs/chain-map.md](docs/chain-map.md) |
 | **Pinout Library** | Reference for industrial connector standards | [docs/pinouts.md](docs/pinouts.md) |
+| **Simulation Mode** | Configurable signal patterns, scenarios, and manual events, no PLC needed | [docs/simulation.md](docs/simulation.md) |
 
 ## Why TRACE
 
 - **Built for the field, not the lab.** Fast to open and fast to point at a PLC, with no project
   files or engineering workstation to set up first.
-- **One tool, four jobs.** Live monitoring, historical replay, network diagnostics, and a
-  connector reference live in a single application instead of four separate ones.
-- **Works without a live PLC.** A built-in simulation mode means students and trainees can
-  practice reading and troubleshooting signals with no real PLC hardware required, and the
-  same views carry over once they're working on a real one.
+- **One tool, several jobs.** Live monitoring, historical replay, network diagnostics, a
+  connector reference, and a simulation environment live in a single application instead of
+  several.
+- **Works without a live PLC.** Configurable simulation patterns and ready-made scenarios mean
+  anyone can practice reading and troubleshooting signals with no real PLC hardware required, and
+  the same views carry over once they're working on a real one.
 - **Your data stays yours.** TRACE runs locally and does not transmit signal data, tags, or
   project information anywhere.
 
@@ -89,24 +98,24 @@ descriptions.
 TRACE is a lightweight desktop application for Windows. It connects to PLC-connected equipment
 over standard industrial Ethernet, runs entirely on the local machine, and stores its
 configuration and recordings locally. There's no server component, no account requirement, and no
-telemetry. This repository documents the product; the application itself is closed-source
-commercial software.
+telemetry. This repository documents the product; the application itself is closed-source.
+
+## Pricing
+
+TRACE is free to use, with all current features included: no trial, no paid tier. See
+[www.siganor.com/trace](https://www.siganor.com/trace) for the current feature list.
 
 ## Roadmap
 
-TRACE is under active development. Here's the short version of where it's headed; the full
-breakdown is in [`ROADMAP.md`](ROADMAP.md):
-
-- **0.9 (Core Platform):** live monitoring, replay, CSV export, chain map, pinout library
-- **1.0 (Professional Release):** licensing, settings sync, refined UI, installer, automatic updates
-- **1.5 (Operations):** alarm manager, report generator, PDF reports, project & machine profiles
-- **2.0 (Intelligence):** AI assistant, failure analysis, maintenance suggestions, root cause analysis
+TRACE is under active development; the full breakdown is in [`ROADMAP.md`](ROADMAP.md). In short:
+Live Monitoring, Replay, Chain Map, the Pinout Library, and Simulation Mode are all shipped and in
+daily use. Priorities being evaluated for future releases include support for additional
+industrial protocols and continued refinement of the simulation toolset.
 
 ## Current Development Status
 
-TRACE's core modules (Live Monitoring, Replay, Chain Map, and the Pinout Library) are
-functional and in daily use. The project is progressing toward its 1.0 professional release.
-Follow progress and get in touch through the channels below.
+TRACE's core modules (Live Monitoring, Replay, Chain Map, Pinout Library, and Simulation Mode) are
+functional and in daily use. Follow progress and get in touch through the channels below.
 
 ## FAQ
 
@@ -123,9 +132,13 @@ Yes. The Replay module is built specifically for loading and analyzing past reco
 **Can I export data?**
 Yes, recordings can be exported to CSV for reporting or further analysis in other tools.
 
+**Do I need a physical PLC to use TRACE?**
+No. [Simulation Mode](docs/simulation.md) lets you configure digital and analog signals, load
+prepared scenarios, and introduce manual events without connecting to physical PLC hardware.
+
 **Is TRACE open source?**
-No. TRACE is closed-source commercial software. This repository documents the product
-publicly; the source code is not published.
+TRACE is free to use, but its application source code is not public. This repository documents
+the product publicly.
 
 See the [full FAQ](docs/faq.md) for more.
 

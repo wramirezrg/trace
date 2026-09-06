@@ -13,14 +13,11 @@ in the field.
 
 ## Capabilities
 
-- **Industrial connector reference** covering, among others:
-  - Ethernet
-  - PROFINET
-  - DeviceNet
-  - RS-485
-  - Sensor and actuator connectors
-  - Encoders
-  - Industrial power connectors
+- **Industrial connector reference** covering:
+  - RJ45 (T568B)
+  - M12 (4/5/8-pin, D- and A-coded)
+  - DB9
+  - Terminal blocks
 - **Connector pin numbering**: clear, labeled diagrams
 - **Signal descriptions**: what each pin is for
 - **Color coding**: standard wire color references where applicable
@@ -33,4 +30,4 @@ diagnostic tools already in use.
 
 ---
 
-[← Chain Map](chain-map.md) · [Back to Overview](overview.md)
+[← Chain Map](chain-map.md) · [Simulation Mode →](simulation.md)

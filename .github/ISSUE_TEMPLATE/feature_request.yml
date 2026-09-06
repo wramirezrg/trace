@@ -33,6 +33,7 @@ body:
         - Replay
         - Chain Map
         - Pinout Library
+        - Simulation Mode
         - New module
         - Not sure
     validations:
