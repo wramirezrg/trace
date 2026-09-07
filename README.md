@@ -4,39 +4,39 @@
 
 # TRACE
 
-**An industrial troubleshooting and diagnostics platform for PLC-connected equipment.**
+**An industrial troubleshooting and diagnostics platform for PLC connected equipment.**
 
 TRACE gives maintenance technicians, automation engineers, and controls engineers a fast,
-direct view into what a PLC-connected machine is doing, in real time and after the fact, without
+direct view into what a PLC connected machine is doing, in real time and after the fact, without
 an expensive proprietary toolchain.
 
 [**Visit www.siganor.com →**](https://www.siganor.com)
 
-![TRACE Monitor: real-time PLC signal monitoring](media/monitor.png)
+![TRACE Monitor: real time PLC signal monitoring](media/monitor.png)
 
 ---
 
 ## What TRACE Does
 
 Industrial troubleshooting usually means one of two things: staring at a control panel hoping
-to catch a fault as it happens, or digging through vendor-specific tools that are expensive,
+to catch a fault as it happens, or digging through vendor specific tools that are expensive,
 locked to a single hardware ecosystem, or too generic to answer field questions quickly.
 
 TRACE is built around a simpler idea: give the people closest to the machine (technicians,
-electricians, and engineers) a direct, real-time and historical view of signal behavior, plus the
+electricians, and engineers) a direct, real time and historical view of signal behavior, plus the
 network and connector context needed to find a problem fast.
 
 ## Feature Highlights
 
-- **Real-time monitoring** of PLC signals with multiple synchronized graphs, in real
+- **Real time monitoring** of PLC signals with multiple synchronized graphs, in real
   engineering units
 - **Digital and analog** signal visualization, side by side
 - **Conditional recording** that starts and stops automatically on a signal condition
-- **Session replay** with time cursors for post-incident analysis
+- **Session replay** with time cursors for post incident analysis
 - **Network topology mapping** for industrial Ethernet daisy chains
 - **Connector pinout reference library** for common industrial standards
 - **CSV export and recording** for reporting and further analysis
-- **Configurable simulation mode**: signal patterns, ready-made scenarios, and manual events, no
+- **Configurable simulation mode**: signal patterns, ready made scenarios, and manual events, no
   PLC required
 - Installs and runs as a local desktop application, with no cloud dependency
 
@@ -54,7 +54,7 @@ each event took and how signals relate to one another.
 
 ### Chain Map
 ![Chain Map](media/chain-map.png)
-A live view of an industrial Ethernet daisy chain, showing reachability and per-node latency to
+A live view of an industrial Ethernet daisy chain, showing reachability and per node latency to
 help narrow down where a communication problem is.
 
 ### Pinouts
@@ -64,8 +64,8 @@ assignment, and color coding, without leaving the application.
 
 ### Simulation Mode
 ![Simulation Mode](media/simulation.png)
-A ready-made scenario running with no PLC connected: a motor's Running signal delayed off
-Start_Command, and its Current climbing with a realistic first-order response.
+A ready made scenario running with no PLC connected: a motor's Running signal delayed off
+Start_Command, and its Current climbing with a realistic first order response.
 
 See [`docs/screenshots.md`](docs/screenshots.md) for the full gallery with extended
 descriptions.
@@ -87,7 +87,7 @@ descriptions.
 - **One tool, several jobs.** Live monitoring, historical replay, network diagnostics, a
   connector reference, and a simulation environment live in a single application instead of
   several.
-- **Works without a live PLC.** Configurable simulation patterns and ready-made scenarios mean
+- **Works without a live PLC.** Configurable simulation patterns and ready made scenarios mean
   anyone can practice reading and troubleshooting signals with no real PLC hardware required, and
   the same views carry over once they're working on a real one.
 - **Your data stays yours.** TRACE runs locally and does not transmit signal data, tags, or
@@ -95,10 +95,10 @@ descriptions.
 
 ## Technology Overview
 
-TRACE is a lightweight desktop application for Windows. It connects to PLC-connected equipment
+TRACE is a lightweight desktop application for Windows. It connects to PLC connected equipment
 over standard industrial Ethernet, runs entirely on the local machine, and stores its
 configuration and recordings locally. There's no server component, no account requirement, and no
-telemetry. This repository documents the product; the application itself is closed-source.
+telemetry. This repository documents the product; the application itself is closed source.
 
 ## Pricing
 
@@ -120,7 +120,7 @@ functional and in daily use. Follow progress and get in touch through the channe
 ## FAQ
 
 **What PLCs are supported?**
-Allen-Bradley controllers over EtherNet/IP. Support for additional protocols is being evaluated
+Allen Bradley controllers over EtherNet/IP. Support for additional protocols is being evaluated
 for future releases.
 
 **Is an internet connection required?**
